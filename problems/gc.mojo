@@ -1,6 +1,8 @@
 from file_utils import read_from_downloads
 
 
+## Takes in the fasta string
+## Outputs the dictionary with pairs (read_id, dna)
 def parse_FASTA_to_dict(fasta: String) -> Dict[String, String]:
     reads = fasta.split(">")
 
