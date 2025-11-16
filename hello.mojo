@@ -1,2 +1,2 @@
 def main():
-    print("Hello, Mojo!")
+    print(5/2)
